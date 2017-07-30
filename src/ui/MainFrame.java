@@ -45,9 +45,13 @@ public class MainFrame extends JFrame implements iChangeListener, iDiscreteEvent
 			*/
 	
 	//======LOOPBACK
+<<<<<<< HEAD
 	// Singleton pattern
 	public static MainFrame mainframe;
 	// The "Manage Locks" dialog.
+=======
+	public static MainFrame mainframe;
+>>>>>>> origin/master
 	public DialogManageLocks manageLocks = new DialogManageLocks();
 	public PanelSeats seatsPanel = new PanelSeats();
 	public PanelFeatures featuresPanel = new PanelFeatures();
@@ -4057,7 +4061,11 @@ public class MainFrame extends JFrame implements iChangeListener, iDiscreteEvent
 		lblFairnessCriteria.setBounds(10, 10, 179, 16);
 		
 		panel_4.add(lblFairnessCriteria);
+<<<<<<< HEAD
 		lblRacialVoteDilution.setToolTipText("<html><img src=\"file:/../resources/voting_power.png\">");
+=======
+		lblRacialVoteDilution.setToolTipText("<html><img src=\"file:/C:/Users/kbaas.000/git/autoredistrict/bin/resources/voting_power.png\">");
+>>>>>>> origin/master
 		lblRacialVoteDilution.setBounds(10, 220, 172, 16);
 		
 		panel_4.add(lblRacialVoteDilution);
@@ -4086,7 +4094,11 @@ public class MainFrame extends JFrame implements iChangeListener, iDiscreteEvent
 		panel_4.add(chckbxConstrain_1);
 		
 		lblDescriptiveRepr = new JLabel("Descriptive representation");
+<<<<<<< HEAD
 		lblDescriptiveRepr.setToolTipText("<html><img src=\"file:/../resources/voting_power.png\">");
+=======
+		lblDescriptiveRepr.setToolTipText("<html><img src=\"file:/C:/Users/kbaas.000/git/autoredistrict/bin/resources/voting_power.png\">");
+>>>>>>> origin/master
 		lblDescriptiveRepr.setFont(new Font("Tahoma", Font.PLAIN, 10));
 		lblDescriptiveRepr.setBounds(10, 265, 172, 16);
 		panel_4.add(lblDescriptiveRepr);
@@ -6074,7 +6086,11 @@ public class MainFrame extends JFrame implements iChangeListener, iDiscreteEvent
 		srlblSplitReduction = new JLabel("Split reduction");
 		srlblSplitReduction.setBounds(10, 136, 172, 16);
 		panel_5.add(srlblSplitReduction);
+<<<<<<< HEAD
 		srlblSplitReduction.setToolTipText("<html><img src=\"file:/../resources/voting_power.png\">");
+=======
+		srlblSplitReduction.setToolTipText("<html><img src=\"file:/C:/Users/kbaas.000/git/autoredistrict/bin/resources/voting_power.png\">");
+>>>>>>> origin/master
 		
 		sliderSplitReduction = new JSlider();
 		sliderSplitReduction.addChangeListener(new ChangeListener() {
