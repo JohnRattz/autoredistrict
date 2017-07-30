@@ -10,13 +10,10 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 
-<<<<<<< HEAD
 /**
  * This defines the "Manage Locks" dialog,
  * which is currently accessed through the menu item "Communitites of interest".
  */
-=======
->>>>>>> origin/master
 public class DialogManageLocks extends JDialog {
 	public Vector<String> locks = new Vector<String>();
 	public JList<String> list = new JList<String>();
